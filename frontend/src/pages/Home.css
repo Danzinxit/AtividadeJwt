@@ -1,0 +1,52 @@
+.homeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: white; /* Cor do texto */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px; /* Largura máxima */
+    margin: auto; /* Centraliza horizontalmente */
+    height: 100vh; /* Altura total da tela */
+}
+
+.server-name {
+    font-size: 2.5em; /* Tamanho do texto do nome do servidor */
+    color: #ffcc00; /* Cor do nome do servidor */
+    margin-bottom: 15px; /* Espaço inferior */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5); /* Sombra do texto */
+    text-align: center; /* Centraliza o texto */
+}
+
+.welcome-message {
+    font-size: 1.5em; /* Tamanho do texto */
+    margin-bottom: 30px; /* Espaço inferior */
+    text-align: center; /* Centraliza o texto */
+}
+
+.linkContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centraliza os links */
+    gap: 15px; /* Espaço entre os links */
+}
+
+.homeLinks {
+    border-radius: 8px; /* Borda arredondada */
+    border: none; /* Remove a borda */
+    padding: 12px 24px; /* Espaçamento interno dos links */
+    font-size: 1.2em; /* Tamanho da fonte dos links */
+    font-weight: 500; /* Peso da fonte */
+    background-color: #646cff; /* Cor de fundo dos links */
+    color: white; /* Cor do texto dos links */
+    text-decoration: none; /* Remove o sublinhado */
+    transition: background-color 0.3s, transform 0.2s; /* Transições suaves */
+}
+
+.homeLinks:hover {
+    background-color: #535bf2; /* Cor dos links ao passar o mouse */
+    transform: scale(1.05); /* Aumenta o tamanho dos links ao passar o mouse */
+}

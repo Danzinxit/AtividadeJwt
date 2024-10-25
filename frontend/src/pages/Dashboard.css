@@ -1,0 +1,40 @@
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: white; /* Texto branco */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    max-width: 600px; /* Largura máxima */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+.welcome-message {
+    font-size: 2.5em;
+    margin-bottom: 10px; /* Espaço inferior */
+}
+
+.info-message {
+    font-size: 1.2em;
+    margin-bottom: 20px; /* Espaço inferior */
+    text-align: center; /* Centraliza o texto */
+}
+
+.home-button {
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    font-weight: 500;
+    background-color: #646cff; /* Cor do botão */
+    color: white; /* Cor do texto do botão */
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.home-button:hover {
+    background-color: #535bf2; /* Cor do botão ao passar o mouse */
+}
